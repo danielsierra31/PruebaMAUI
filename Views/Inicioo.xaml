@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PruebaMAUI.ViewModel"
+             x:Class="PruebaMAUI.Views.Inicioo"
+             Title="Bienvenido(a), Dilan">
+
+    <ContentPage.BindingContext>
+        <local:AppointmentsViewModel />
+    </ContentPage.BindingContext>
+
+    <AbsoluteLayout>
+        <!-- CollectionView -->
+        <CollectionView ItemsSource="{Binding Appointments}"
+                        IsGrouped="True"
+                        AbsoluteLayout.LayoutFlags="All"
+                        AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                        Margin="10">
+            <CollectionView.GroupHeaderTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding Key}" FontSize="Medium" FontAttributes="Bold" />
+                </DataTemplate>
+            </CollectionView.GroupHeaderTemplate>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal" Padding="10">
+                        <StackLayout HorizontalOptions="StartAndExpand">
+                            <Label Text="{Binding Description}" FontSize="Small" />
+                            <Label Text="{Binding Date, StringFormat='{0:HH:mm}'}" FontSize="Small" TextColor="Gray" />
+                        </StackLayout>
+                        <ImageButton Source="papelera" WidthRequest="20" HeightRequest="20" Clicked="OnDeleteClicked" CommandParameter="{Binding .}" HorizontalOptions="End"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- Floating Action Button -->
+        <Button Text="+" Clicked="OnAddClicked"
+                BackgroundColor="LightBlue" 
+                TextColor="White"
+                FontSize="24"
+                WidthRequest="56"
+                HeightRequest="56"
+                CornerRadius="28"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="1, 1, AutoSize, AutoSize"/>
+    </AbsoluteLayout>
+
+</ContentPage>

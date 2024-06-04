@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PruebaMAUI.Views.SugerirPage"
+             Title="Sugerir">
+    <ScrollView>
+    <StackLayout Padding="10">
+        <Label Text="Si no encuentras tu centro de belleza ideal en Sincelejo, haz clic en el enlace de abajo para abrir nuestra página de sugerencias."
+               FontSize="18"
+               HorizontalOptions="Center"/>
+        <Image Source="mujer_confundida" HeightRequest="300" WidthRequest="300"/>
+        <Button Text="Abrir Enlace"
+                FontSize="18"
+                Margin="20"
+                HorizontalOptions="Center"
+                Clicked="OnOpenLinkClicked" />
+        <Button Text="Ir a Inicio"
+                FontSize="18"
+                HorizontalOptions="Center"
+                BackgroundColor="Gray"
+                Clicked="Button_Clicked" />
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

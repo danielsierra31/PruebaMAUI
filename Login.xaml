@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PruebaMAUI.Login"
+             Title="Bienvenido">
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Margin="20"
+            VerticalOptions="Center">
+            <Image Source="logo_icono_bg" 
+                   HeightRequest="120"
+                   Margin="0,20,0,0"/>
+            <StackLayout Orientation="Horizontal">
+                <Entry x:Name="User"
+                   Placeholder="Usuario"
+                       WidthRequest="285"/>
+                </StackLayout>
+            <HorizontalStackLayout>
+                <Entry x:Name="Password" 
+                   IsPassword="True"
+                   Placeholder="Contraseña" 
+                   WidthRequest="250"/>
+                    <ImageButton Source="ojo" HeightRequest="30" WidthRequest="30" 
+                             Clicked="ImageButton_Clicked" x:Name="Mostrar"/>
+                </HorizontalStackLayout>
+                <Grid ColumnDefinitions="*,10">
+            <Button Grid.Row="0" Grid.Column="0"
+                x:Name="Loginn"
+                Text="Login"
+                Margin="0,0,0,0"
+                Clicked="Login_Clicked"/>
+                <ActivityIndicator x:Name="Iniciando" 
+                  Grid.Row="0" Grid.Column="0" Color="WhiteSmoke"/>
+            </Grid>
+            <Label x:Name="incorrecto" IsVisible="false"/>
+            <Label Text="Or" 
+                   HorizontalTextAlignment="Center"
+                   FontSize="18"/>
+            <Button
+                Text="Sign Up"
+                Margin="110,0,110,30"
+                Clicked="Login_Clicked"
+                BackgroundColor="Gray"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
