@@ -11,7 +11,7 @@
         <Image Source="mujer_confundida" HeightRequest="300" WidthRequest="300"/>
         <Button Text="Abrir Enlace"
                 FontSize="18"
-                Margin="20"
+                Margin="18"
                 HorizontalOptions="Center"
                 Clicked="OnOpenLinkClicked" />
         <Button Text="Ir a Inicio"

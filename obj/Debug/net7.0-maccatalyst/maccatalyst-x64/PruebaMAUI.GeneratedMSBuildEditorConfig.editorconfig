@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PruebaMAUI
-build_property.ProjectDir = C:\Users\DILAN\source\repos\PruebaMAUI\
+build_property.ProjectDir = C:\Users\DILAN\OneDrive\Escritorio\ProyectoIntegracionContinua\PruebaMAUI\
 
-[C:/Users/DILAN/source/repos/PruebaMAUI/App.xaml]
+[C:/Users/DILAN/OneDrive/Escritorio/ProyectoIntegracionContinua/PruebaMAUI/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PruebaMAUI.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/DILAN/source/repos/PruebaMAUI/AppShell.xaml]
+[C:/Users/DILAN/OneDrive/Escritorio/ProyectoIntegracionContinua/PruebaMAUI/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PruebaMAUI.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/DILAN/source/repos/PruebaMAUI/Login.xaml]
+[C:/Users/DILAN/OneDrive/Escritorio/ProyectoIntegracionContinua/PruebaMAUI/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PruebaMAUI.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = Login.xaml
 build_metadata.AdditionalFiles.RelativePath = Login.xaml
 
-[C:/Users/DILAN/source/repos/PruebaMAUI/MainPage.xaml]
+[C:/Users/DILAN/OneDrive/Escritorio/ProyectoIntegracionContinua/PruebaMAUI/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PruebaMAUI.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/DILAN/source/repos/PruebaMAUI/Resources/Styles/Colors.xaml]
+[C:/Users/DILAN/OneDrive/Escritorio/ProyectoIntegracionContinua/PruebaMAUI/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PruebaMAUI.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/DILAN/source/repos/PruebaMAUI/Resources/Styles/Styles.xaml]
+[C:/Users/DILAN/OneDrive/Escritorio/ProyectoIntegracionContinua/PruebaMAUI/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PruebaMAUI.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/DILAN/source/repos/PruebaMAUI/Views/AddAppointmentPage.xaml]
+[C:/Users/DILAN/OneDrive/Escritorio/ProyectoIntegracionContinua/PruebaMAUI/Views/AddAppointmentPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PruebaMAUI.Views.AddAppointmentPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AddAppointmentPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AddAppointmentPage.xaml
 
-[C:/Users/DILAN/source/repos/PruebaMAUI/Views/Inicioo.xaml]
+[C:/Users/DILAN/OneDrive/Escritorio/ProyectoIntegracionContinua/PruebaMAUI/Views/Inicioo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PruebaMAUI.Views.Inicioo.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Inicioo.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Inicioo.xaml
 
-[C:/Users/DILAN/source/repos/PruebaMAUI/Views/SugerirPage.xaml]
+[C:/Users/DILAN/OneDrive/Escritorio/ProyectoIntegracionContinua/PruebaMAUI/Views/SugerirPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PruebaMAUI.Views.SugerirPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SugerirPage.xaml

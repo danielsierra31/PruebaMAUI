@@ -32730,11 +32730,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DILAN\\source\\repos\\PruebaMAUI\\PruebaMAUI.csproj",
+      "projectUniqueName": "C:\\Users\\DILAN\\OneDrive\\Escritorio\\ProyectoIntegracionContinua\\PruebaMAUI\\PruebaMAUI.csproj",
       "projectName": "PruebaMAUI",
-      "projectPath": "C:\\Users\\DILAN\\source\\repos\\PruebaMAUI\\PruebaMAUI.csproj",
+      "projectPath": "C:\\Users\\DILAN\\OneDrive\\Escritorio\\ProyectoIntegracionContinua\\PruebaMAUI\\PruebaMAUI.csproj",
       "packagesPath": "C:\\Users\\DILAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DILAN\\source\\repos\\PruebaMAUI\\obj\\",
+      "outputPath": "C:\\Users\\DILAN\\OneDrive\\Escritorio\\ProyectoIntegracionContinua\\PruebaMAUI\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
